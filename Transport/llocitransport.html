@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lugar y transporte</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="sticky-header">
+    <button class="hamburger" aria-label="Toggle Menu">
+    ☰</button>
+     <div class="logo">
+        <img src="logo.png" alt="RetroNihon Logo">
+    </div>
+    <nav class="menu">
+        <ul>
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/Products/productes.html">Productos</a></li>
+            <li><a href="/About/sobremi.html">Sobre RetroNihon</a></li>
+            <li><a href="/Info/info.html">Información de contacto</a></li>
+        </ul>
+    </nav>
+</header>
+<button id="scroll-top">&#9650;</button>
+<section class="full-width-image">
+    <img src="nagoya.jpg" alt="Imatge a pantalla completa">
+</section>
+
+    <main>
+        <section class="inici">
+            <h1>El lugar desde donde se enviaran todos los productos es la ciudad de Nagoya</h1>
+        </section>
+    </main>
+<section class="article-section">
+    <!-- First bloc -->
+    <article class="content-block">
+        <h2 class="block-title">Origen del transporte de los productos</h2>
+        <img src="mariokart.png" alt="Primera Imatge" class="block-image">
+        <p class="block-description">
+        La ciudad de Nagoya, es el lugar origen desde donde nosotros enviaremos los productos hacia al país de destino.
+        </p>
+    </article>
+
+    <!-- Second bloc -->
+    <article class="content-block">
+        <h2 class="block-title">Medio de transporte que utilizamos para el envío</h2>
+        <img src="japanpost.jpg" alt="Segona Imatge" class="block-image">
+        <p class="block-description">
+        Departamento de correo nacional japonés.
+        </p>
+    </article>
+
+    <!-- Third bloc -->
+    <article class="content-block1">
+        <p class="block-description1">
+        En el botón de abajo podréis acceder a la pagina web oficial de dicho departamento de correos, para poder saber exactamente que cuesta enviar un paquete con un peso determinado y las diferentes modalidades de envío al igual que el tiempo que puede tardar en ser recibido.</p>
+        <p>*El punto de origen de envío seleccionad la prefectura de (Aichi).</p>
+        <a href="https://www.post.japanpost.jp/cgi-charge/index.php?lang=_en" target="_blank" class="dynamic-button">Precio del transporte</a>
+    </article>
+</section>
+
+   <footer class="footer">
+   <div class="social-icons">
+        <a href="https://www.gmail.com" class="icon gmail" target="_blank" title="Gmail"></a>
+        <a href="https://www.instagram.com/retronihon_/" class="icon instagram" target="_blank" title="Instagram"></a>
+        <a href="https://www.youtube.com/@retronihon/videos" class="icon youtube" target="_blank" title="YouTube"></a>
+    </div>
+   <div class="info-footer">
+    <br>
+    <p>© 2025 RetroNihon. Todos los derechos reservados.</p>
+    <p>Web creada por RetroNihon · <span id="fecha"></span></p>
+    <br>
+ </div>
+</footer>
+
+  <script src="script2.js"></script>
+<script>
+  document.getElementById("fecha").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre RetroNihon</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles3.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+     <header class="sticky-header">
+    <button class="hamburger" aria-label="Toggle Menu">
+    ☰</button>
+    <div class="logo">
+        <img src="logo.png" alt="RetroNihon Logo">
+    </div>
+    <nav class="menu">
+        <ul>
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/Products/productes.html">Productos</a></li>
+            <li><a href="/Transport/llocitransport.html">Lugar y transporte</a></li>
+            <li><a href="/Info/info.html">Información de contacto</a></li>
+        </ul>
+    </nav>
+</header>
+<button id="scroll-top">&#9650;</button>
+<section class="full-width-image">
+    <img src="msx.jpg" alt="Imatge a pantalla completa">
+</section>
+
+    <main>
+        <section class="inici">
+            <h1>Quién está detrás de RetroNihon?</h1>
+            <br>
+            <h3>Vamos a ver un poco sus motivaciones y sus gustos ...</h3>
+        </section>
+         <!-- Blocs dinàmics -->
+        <section class="dynamic-content">
+            <article class="info-card">
+                <img src="david.png" alt="Vamos a ver..." class="card-image">
+                <h4>Quién es Retronihon...</h4>
+            </article>
+        </section>
+        <div id="article" class="additional-article">
+        <p>RetroNihon es una persona como tantas que de muy pequeño le gustaba el mundo de los videojuegos y el anime.
+        <img src="" alt="" class="article-image">
+        </div>
+        <section class="dynamic-content">
+            <article class="info-card">
+                <img src="pacman.png" alt="Vamos a ver..." class="card-image">
+                <h4>Momentos para no olvidar...</h4>
+            </article>
+        </section>
+        <div id="article" class="additional-article">
+        <p>Desde muy joven pude tener la oportunidad de jugar con un fantástico Mitsubishi MSX, tanto a juegos con grabadora y casete como con cartuchos al igual que los fantásticos Game&Watch, en fin una maravilla!.<br><br> 
+        Mas adelante empezaron a salir las primeras consolas de Sega y Nintendo de 8bits, ( las que uno en aquel entonces su familia se podía permitir ). Por otra parte, en el caso de la NeoGeo o Turbo Graft, eso era otro mundo y no estaba al abasto de todos. Pasando el tiempo también cambiaban las tendencias y la tecnología, empezando por las consolas de 8 bits ( Nintendo y Sega Master System ), a las consolas de 16 bits como Super Nintendo o Mega Drive y también sus respectivas consolas portátiles como la GameBoy y Game Gear.</p>
+        <img src="donkeykong.png" alt="Imatge Moments Retro" class="article-image">
+       </div>
+        <section class="dynamic-content">
+            <article class="info-card">
+                <img src="goku.gif" alt="Vamos a ver..." class="card-image">
+                <h4>Vínculo con Japón...</h4>
+            </article>
+        </section>
+        <div id="article" class="additional-article">
+        <p>En fin, que no había tiempo para aburrirse con tantas maravillas tecnologías de aquellos tiempos y en que tantos momentos pude disfrutar. También, siempre el mundo del anime y manga japonés me ha fascinado mucho. Como no. . . Dragon Ball, Arare chan, One Peace, Naruto y un largo listado de títulos que puede ser casi interminable.<br><br> 
+        A medida que pasaba el tiempo, quería conocer mas la cultura japonesa, que de alguna manera, tan cerca tenia al jugar con los videojuegos y como no leer sus mangas y ver su anime.
+        De aquí a querer aprender su idioma, su cultura y poder tener oportunidad de iniciar una nueva vida en este país niponés.<br><br>   
+        Ahora estoy viviendo en Japón y cada día sigo aprendiendo muchas cosas que en comparación a nuestra cultura no tiene nada que ver, eso sí, esforzándome al máximo para adaptarme.<br><br> 
+
+        Su cultura, idioma, los diferentes niveles de formalidades que parecen imposibles o improbables en nuestro país, pero que cuando se lleva un cierto tiempo viviendo allí, uno se acostumbra y adapta sin problema alguno.<br><br> 
+
+        Por eso, os invito a que si realmente os gusta cosas relacionadas con Japón, o bien tenéis un cierto interés en visitar este fantástico país, viajad, descubrid y disfrutad tanto como podáis.</p>
+        <img src="gojira.jpg" alt="Imatge Cultura Japonesa" class="article-image"><br>
+        <img src="naruto.gif" alt="Imatge Cultura Japonesa" class="article-image">
+        </div>
+   </main>
+
+   <footer class="footer">
+   <div class="social-icons">
+        <a href="https://www.gmail.com" class="icon gmail" target="_blank" title="Gmail"></a>
+        <a href="https://www.instagram.com/retronihon_/" class="icon instagram" target="_blank" title="Instagram"></a>
+        <a href="https://www.youtube.com/@retronihon/videos" class="icon youtube" target="_blank" title="YouTube"></a>
+    </div>
+   <div class="info-footer">
+    <br>
+    <p>© 2025 RetroNihon. Todos los derechos reservados.</p>
+    <p>Web creada por RetroNihon · <span id="fecha"></span></p>
+    <br>
+ </div>
+ </footer>
+
+  <script src="script3.js"></script>
+<script>
+  document.getElementById("fecha").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

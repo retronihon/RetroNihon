@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="sticky-header">
+    <button class="hamburger" aria-label="Toggle Menu">
+    ☰</button>
+     <div class="logo">
+        <img src="logo.png" alt="RetroNihon Logo">
+    </div>
+    <nav class="menu">
+        <ul>
+            <li><a href="/Products/productes.html">Productos</a></li>
+            <li><a href="/Transport/llocitransport.html">Lugar y transporte</a></li>
+            <li><a href="/About/sobremi.html">Sobre RetroNihon</a></li>
+            <li><a href="/Info/info.html">Información de contacto</a></li>
+        </ul>
+    </nav>
+    </header>
+<button id="scroll-top">&#9650;</button>
+<section class="full-width-image">
+    <img src="imatge-inicial.jpg" alt="Imatge a pantalla completa">
+</section>
+
+    <main>
+        <section class="inici">
+            <h1>Bienvenidos a RetroNihon</h1>
+            <br>
+            <h3>Proceso de gestión de los productos para clientes</h3>
+        </section>
+    </main>
+
+    <section class="dynamic-image">
+    <div class="interactive-card">
+        <img src="image1.png" alt="Imatge dinàmica" class="image">
+        <div class="overlay">
+            <h2>Sistema de comunicación mediante email.</h2>
+        </div>
+    </div>
+     <div class="interactive-card">
+     <img src="image2.png" alt="Imatge dinàmica" class="image">
+        <div class="overlay">
+            <h2>Búsqueda mediante plataformas web japonesas o tienda física.</h2>
+        </div>
+     </div>
+      <div class="interactive-card">
+     <img src="image3.png" alt="Imatge dinàmica" class="image">
+        <div class="overlay">
+            <h2>Decidir si el valor del/los productos son viables y seguidamente ponerse de acuerdo en el precio y fecha de envío.</h2>
+        </div>
+     </div>
+      <div class="interactive-card">
+     <img src="image4.png" alt="Imatge dinàmica" class="image">
+        <div class="overlay">
+            <h2>Valorar el precio final de cada producto.
+            El valor final de todo lo que se vaya a enviar asume: el valor del producto + los beneficios propios por la gestión tratada y el precio del transporte.</h2>
+        </div>
+    </div>
+      <div class="interactive-card">
+     <img src="image5.png" alt="Imatge dinàmica" class="image">
+        <div class="overlay">
+            <h2>Envío del/los paquetes desde Japón al punto de destino prefijado por el cliente. El transporte se hará mediante EMS con código de seguimiento incluido.</h2>
+        </div>
+     </div>    
+</section>
+
+   <footer class="footer">
+   <div class="social-icons">
+        <a href="https://www.gmail.com" class="icon gmail" target="_blank" title="Gmail"></a>
+        <a href="https://www.instagram.com/retronihon_/" class="icon instagram" target="_blank" title="Instagram"></a>
+        <a href="https://www.youtube.com/@retronihon/videos" class="icon youtube" target="_blank" title="YouTube"></a>
+    </div>
+   <div class="info-footer">
+    <br>
+    <p>© 2025 RetroNihon. Todos los derechos reservados.</p>
+    <p>Web creada por RetroNihon · <span id="fecha"></span></p>
+    <br>
+ </div>
+</footer>
+
+  <script src="script.js"></script>
+<script>
+  document.getElementById("fecha").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

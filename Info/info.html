@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles4.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+     <header class="sticky-header">
+    <button class="hamburger" aria-label="Toggle Menu">
+    ☰</button>
+     <div class="logo">
+        <img src="logo.png" alt="RetroNihon Logo">
+    </div>
+    <nav class="menu">
+        <ul>
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/Products/productes.html">Productos</a></li>
+            <li><a href="/Transport/llocitransport.html">Lugar y transporte</a></li>
+            <li><a href="/About/sobremi.html">Sobre RetroNihon</a></li>
+        </ul>
+    </nav>
+    </header>
+<button id="scroll-top">&#9650;</button>
+<section class="full-width-image">
+    <img src="info.jpg" alt="Imatge a pantalla completa">
+</section>
+<main>
+        <section class="inici">
+            <h1>Información de contacto</h1>
+        </section>
+        <section class="contact-form-section">
+    <h3>Contáctanos</h3>
+    <form id="contactForm" action="send_email.php" method="post">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" placeholder="Escribe tu nombre" required>
+        
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" placeholder="Escribe tu correo electrónico" required>
+        
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" placeholder="Escribe un mensaje" rows="5" required></textarea>
+        
+        <button type="submit" class="submit-btn">Envía</button>
+        <div id="formResponse" class="response-message"></div> <!-- Dynamic response -->
+    </form>
+     </section>
+</main>
+
+   <footer class="footer">
+   <div class="social-icons">
+        <a href="https://www.gmail.com" class="icon gmail" target="_blank" title="Gmail"></a>
+        <a href="https://www.instagram.com/retronihon_/" class="icon instagram" target="_blank" title="Instagram"></a>
+        <a href="https://www.youtube.com/@retronihon/videos" class="icon youtube" target="_blank" title="YouTube"></a>
+    </div>
+   <div class="info-footer">
+    <br>
+    <p>© 2025 RetroNihon. Todos los derechos reservados.</p>
+    <p>Web creada por RetroNihon · <span id="fecha"></span></p>
+    <br>
+ </div>
+</footer>
+
+  <script src="script4.js"></script>
+<script>
+  document.getElementById("fecha").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
