@@ -50,7 +50,7 @@ h1 {
 }
 
 h3 {
-    font-size: 2vw;
+    font-size: 2rem;
     font-weight: bold;
     background: linear-gradient(90deg, #ffffff, #838383);
     background-clip: text;
