@@ -6,7 +6,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     $to = "retronihon@gmail.com";
     $subject = "Nuevo mensaje de contacto";
-    $headers = "From: " . $email . "\r\n";
+    $headers = "From: noreply@retronihon.com\r\n" .
+               "Reply-To: $email\r\n" .
+               "Content-Type: text/plain; charset=utf-8";
+
     $body = "Nombre: $name\nCorreo: $email\n\nMensaje:\n$message";
     
     if (mail($to, $subject, $body, $headers)) {
