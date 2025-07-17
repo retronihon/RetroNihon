@@ -15,6 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (mail($to, $subject, $body, $headers)) {
         echo "Gracias por contactarnos! Nos pondremos en contacto contigo lo más rápido posible.";
     } else {
+        http_response_code(500); 
         echo "Error: El correu no se ha podido enviar.";
     }
 }
