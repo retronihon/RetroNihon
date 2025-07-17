@@ -219,6 +219,16 @@ input, textarea {
     display: none; /* Inicialment ocult */
 }
 
+#formResponse {
+    margin-top: 10px;
+    font-size: 1rem; /* Ajusta la mida del text */
+    font-weight: normal; /* Text no massa destacat */
+    display: block;
+    color: inherit; /* Permet canviar el color per JavaScript */
+    text-align: center; /* Opcional: centrar el text */
+}
+
+
 /* Botó per tornar a la part superior */
 #scroll-top {
     position: fixed;
