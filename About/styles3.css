@@ -156,6 +156,7 @@ h4{
     letter-spacing: -1px; /* Prova amb valors negatius per disminuir l'espai */
     /* Ajustar espai entre paraules */
     word-spacing: -2px; /* Opcional, per reduir separació entre paraules */
+    text-align: left;
 
 }
 
