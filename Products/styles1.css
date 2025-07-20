@@ -158,7 +158,7 @@ h3 {
     font-size: 1.1rem; /* Mida del text */
     line-height: 1.5; /* Facilita la lectura */
     color: #ffffff; /* Color agradable per a la vista */
-    text-align: justify; /* Ajusta el text per a un aspecte uniforme */
+    text-align: left;  /* Ajusta el text per a un aspecte uniforme */
     max-width: 800px; /* Limita l'ample màxim del paràgraf */
     margin: 0 auto; /* Centra la descripció dins del contenidor */
     margin-top: 40px;
