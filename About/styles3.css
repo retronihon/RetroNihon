@@ -155,7 +155,7 @@ h4{
     /* Ajustar espai entre caràcters */
     letter-spacing: -1px; /* Prova amb valors negatius per disminuir l'espai */
     /* Ajustar espai entre paraules */
-    word-spacing: -2px; /* Opcional, per reduir separació entre paraules */
+    word-spacing: -4px; /* Opcional, per reduir separació entre paraules */
     text-align: left;
 
 }
