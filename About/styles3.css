@@ -144,11 +144,10 @@ h4{
 }
 
 .additional-article p {
-
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
-    color: white; /* Verd fosforescent, com en els jocs retro */
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.2rem;
     text-shadow: 2px 2px 4px #000; /* Ombra fosca */
+    color: #00ff00; /* Verd fosforescent, com en els jocs retro */    
     background-color: #000; /* Fons negre retro */
     padding: 3px; /* Espai interior */
     border-radius: 5px; /* Cantonades arrodonides */
@@ -158,11 +157,6 @@ h4{
     word-spacing: -4px; /* Opcional, per reduir separació entre paraules */
     text-align: left;
 
-}
-
-p {
-     font-family: 'Montserrat', sans-serif;
-    color: white;  
 }
 
 
