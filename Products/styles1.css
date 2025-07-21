@@ -58,12 +58,14 @@ h2 {
 }
 
 @media (max-width: 768px) {
-    .title {
-        font-size: 1.5rem; /* Augmenta la mida del títol per a pantalles petites */
-        text-align: center; /* Opcional: centra el títol per estètica */
-        line-height: 1.3; /* Ajusta l'espaiat entre línies si cal */
+    h2.title {
+        font-size: 1.8rem; /* Ajusta segons el que vulguis més visible */
+        text-align: center;
+        margin: 0 auto; /* Centrat per a pantalles petites */
+        line-height: 1.4;
     }
 }
+
 
 /* Header transparent */
 .sticky-header {
