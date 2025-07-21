@@ -175,6 +175,10 @@ h3 {
     background-color: rgb(25, 13, 196); /* Fons del contenidor */
 }
 
+.content-card h2 {
+ 
+}
+
 .content-card:hover {
     transform: scale(1.05); /* Amplia lleugerament l'apartat */
     
