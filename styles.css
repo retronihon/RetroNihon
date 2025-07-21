@@ -173,7 +173,7 @@ h3 {
 }
 
 .image {
-    width: 30%;
+    width: 100%;
     height: 100%;
     object-fit: cover; /* Manté les proporcions de la imatge */
     transition: transform 0.3s ease; /* Efecte suau de zoom */
