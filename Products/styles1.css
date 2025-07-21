@@ -58,12 +58,6 @@ h2 {
 }
 
 @media (max-width: 768px) {
-    h2 {
-        font-size: 1.5rem; /* Fixem una mida específica per pantalles petites */
-    }
-}
-
-@media (max-width: 768px) {
     .title {
         font-size: 1.5rem; /* Augmenta la mida del títol per a pantalles petites */
         text-align: center; /* Opcional: centra el títol per estètica */
