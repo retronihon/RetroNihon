@@ -176,6 +176,14 @@ h3 {
 }
 
 .content-card h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(25, 13, 196);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center; /* Centra el text dins del bloc */
+    font-weight: 600; /* Fa el text més gruixut (400 és normal, 600-700 és més destacat) */
  
 }
 
