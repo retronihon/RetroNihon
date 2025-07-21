@@ -63,6 +63,13 @@ h3 {
     }
 }
 
+@media (max-width: 768px) {
+    .title {
+        font-size: 1.5rem; /* Augmenta la mida del títol per a pantalles petites */
+        text-align: center; /* Opcional: centra el títol per estètica */
+        line-height: 1.3; /* Ajusta l'espaiat entre línies si cal */
+    }
+}
 
 /* Header transparent */
 .sticky-header {
