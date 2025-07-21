@@ -18,7 +18,7 @@ html, body {
 @media (max-width: 768px) {
     .image {
         width: 100%; /* Amplada completa per destacar més la imatge */
-        height: auto; /* Manté la proporció original */
+        height: 100%; /* Manté la proporció original */
         margin-bottom: 10px; /* Afegeix espai entre les imatges */
     }
 
