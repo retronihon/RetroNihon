@@ -16,6 +16,19 @@ html, body {
 }
 
 @media (max-width: 768px) {
+    .image {
+        width: 100%; /* Amplada completa per destacar més la imatge */
+        height: auto; /* Manté la proporció original */
+        margin-bottom: 10px; /* Afegeix espai entre les imatges */
+    }
+
+    .interactive-card {
+        margin: 0 auto; /* Centrat automàtic de les targetes */
+        max-width: 95%; /* Opcional: limita l'amplada màxima per a estètica */
+    }
+}
+
+@media (max-width: 768px) {
     .hamburger {
         display: block; /* Mostra el botó en pantalles petites */
     }
