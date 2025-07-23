@@ -192,8 +192,15 @@ h3 {
     text-align: center; /* Alineació del text */
     opacity: 0; /* Inicialment ocult */
     transition: opacity 0.3s ease; /* Efecte suau d'aparició */
+    overflow: hidden; /* Preveu que el contingut surti fora dels límits arrodonits */
 }
 
+@media (max-width: 768px) {
+    .overlay {
+        width: 80%; /* Ajusta segons el disseny mòbil */
+        height: auto; /* Manté proporcions */
+    }
+}
 
 .interactive-card:hover .image {
     transform: scale(1.1); /* Efecte de zoom sobre la imatge */
