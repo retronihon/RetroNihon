@@ -63,10 +63,6 @@ h3 {
     }
 }
 
-p {
-    text-align: left;
-}
-
 .article-section {
     display: flex;
     flex-direction: column; /* Organitza els blocs en vertical */
