@@ -193,6 +193,7 @@ h3 {
     opacity: 0; /* Inicialment ocult */
     transition: opacity 0.3s ease; /* Efecte suau d'aparició */
     overflow: hidden; /* Preveu que el contingut surti fora dels límits arrodonits */
+    clip-path: inset(0 round 8px); /* Força cantonades arrodonides */
 }
 
 @media (max-width: 768px) {
