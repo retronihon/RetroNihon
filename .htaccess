@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^$ /RetroNihon/ [L]
+RewriteRule (.*) /RetroNihon/$1 [L]
