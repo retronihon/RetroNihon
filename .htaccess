@@ -1,3 +1,4 @@
 RewriteEngine On
-RewriteRule ^$ /RetroNihon/ [L]
+RewriteCond %{HTTP_HOST} ^www.retronihon.com$ [NC]
+RewriteRule ^$ /RetroNihon/ [L,R=301]
 RewriteRule (.*) /RetroNihon/$1 [L]
