@@ -255,6 +255,25 @@ input, textarea {
   text-decoration: underline;
 }
 
+.email-button {
+  display: inline-block;
+  background-color: rgb(25, 13, 196);
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.email-button:hover {
+  background-color: #256bbb;
+  transform: scale(1.05);
+}
 
 /* Botó per tornar a la part superior */
 #scroll-top {
