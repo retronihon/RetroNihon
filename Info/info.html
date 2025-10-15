@@ -38,19 +38,34 @@
         </section>
         <section class="contact-form-section">
     <h3>Contáctanos</h3>
-    <form id="contactForm" action="https://retronihon.infinityfreeapp.com/send_email.php" method="post">
-        <label for="name">Nombre:</label>
-        <input type="text" id="name" name="name" placeholder="Escribe tu nombre" required>
-        
-        <label for="email">Correo Electrónico:</label>
-        <input type="email" id="email" name="email" placeholder="Escribe tu correo electrónico" required>
-        
-        <label for="message">Mensaje:</label>
-        <textarea id="message" name="message" placeholder="Escribe un mensaje" rows="5" required></textarea>
-        
-        <button type="submit" class="submit-btn">Envía</button>
-        <div id="formResponse" class="response-message"></div> <!-- Dynamic response -->
-    </form>
+   <style>
+.contact-box {
+  background-color: #f4f4f4;
+  border: 2px dashed #c94e4e;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: 'Press Start 2P', cursive;
+  color: #333;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-box a {
+  color: #c94e4e;
+  text-decoration: none;
+}
+
+.contact-box a:hover {
+  text-decoration: underline;
+}
+</style>
+
+<div class="contact-box">
+  <p>📩 Puedes contactar en:</p>
+  <p><strong>retronihon[at]@gmail[dot].com</strong></p>
+  <p><a href="mailto:retronihon@gmail.com">Envianos un correo</a></p>
+</div>
      </section>
 </main>
 
