@@ -228,6 +228,34 @@ input, textarea {
     text-align: center; /* Opcional: centrar el text */
 }
 
+.contact-info-custom {
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 2px solid #c94e4e;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 30px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+  font-family: 'Oswald', sans-serif;
+  color: #ffffff;
+}
+
+.contact-info-custom p {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+.contact-info-custom a {
+  color: #c94e4e;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.contact-info-custom a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
 
 /* Botó per tornar a la part superior */
 #scroll-top {
