@@ -147,7 +147,7 @@ h4{
     font-family: 'VT323', monospace;
     font-size: 1rem;
     text-shadow: 2px 2px 4px #000; /* Ombra fosca */
-    color: #ffffff; /* Verd fosforescent, com en els jocs retro */    
+    color: #A9A9A9; /* Verd fosforescent, com en els jocs retro */    
     background-color: #000; /* Fons negre retro */
     padding: 3px; /* Espai interior */
     border-radius: 5px; /* Cantonades arrodonides */
